@@ -7,7 +7,10 @@
   <meta name="description" content="Start as a tiny fry and grow into a Megalodon. Eight oceans, bubble-blast Battle Royale and a hidden Ancient Ocean, solo or with friends nearby." />
   <meta property="og:title" content="Reef Rush" />
   <meta property="og:description" content="Eat, grow and outswim the reef. Ocean survival for iPhone and iPad." />
-  <meta property="og:image" content="assets/icon.png" />
+  <meta property="og:image" content="https://norfork37.github.io/reefrush/assets/icon.png" />
+  <meta property="og:url" content="https://norfork37.github.io/reefrush/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
   <link rel="icon" href="assets/icon.png" />
   <style>
     :root { color-scheme: dark; --text:#e8fbff; --muted:#a9d5de; --accent:#7dffc8; }
@@ -19,7 +22,7 @@
     .tag { margin:0; color:var(--muted); font-size:1.1rem; }
     .badge { display:inline-block; margin-top:14px; padding:10px 16px; border-radius:12px; background:#000; color:#fff; font-weight:600; text-decoration:none; border:1px solid #ffffff44; }
     .shots { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin:36px 0; }
-    .shots img { width:100%; border-radius:18px; box-shadow:0 14px 40px rgba(0,0,0,.35); }
+    .shots img { width:100%; height:auto; border-radius:18px; box-shadow:0 14px 40px rgba(0,0,0,.35); }
     .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; }
     .card { background:rgba(15,81,96,.75); border:1px solid rgba(125,255,200,.22); border-radius:16px; padding:18px; }
     .card h2 { margin:0 0 6px; font-size:1.05rem; color:var(--accent); }
@@ -28,6 +31,7 @@
     a.btn { display:inline-block; margin:8px 10px 0 0; padding:12px 16px; border-radius:999px; background:var(--accent); color:#04352a; text-decoration:none; font-weight:700; }
     a.link { color:var(--accent); }
     footer { margin-top:28px; font-size:.9rem; color:var(--muted); }
+    footer.legal { margin-top:14px; font-size:.75rem; line-height:1.5; opacity:.8; }
     @media (max-width:640px) { .shots { grid-template-columns:1fr 1fr; } .shots img:last-child { display:none; } h1 { font-size:2rem; } }
   </style>
 </head>
@@ -43,9 +47,9 @@
     </header>
 
     <section class="shots" aria-label="Screenshots">
-      <img src="assets/screen-1.jpg" alt="A tuna swimming through Coral Wilds" loading="lazy" />
-      <img src="assets/screen-2.jpg" alt="Bubble-blast Battle Royale" loading="lazy" />
-      <img src="assets/screen-3.jpg" alt="Prehistoric giants in the Ancient Ocean" loading="lazy" />
+      <img src="assets/screen-1.jpg" alt="A tuna swimming through Coral Wilds among smaller fish and predators" loading="lazy" width="420" height="912" />
+      <img src="assets/screen-2.jpg" alt="Bubble-blast Battle Royale with four teams" loading="lazy" width="420" height="912" />
+      <img src="assets/screen-3.jpg" alt="A Dunkleosteus among prehistoric giants in the Ancient Ocean" loading="lazy" width="420" height="912" />
     </section>
 
     <section class="features">
@@ -60,6 +64,7 @@
       <a class="btn" href="privacy.html">Privacy Policy</a>
     </nav>
     <footer>Contact: <a class="link" href="mailto:norfork37@gmail.com">norfork37@gmail.com</a></footer>
+    <footer class="legal">© 2026 the Reef Rush developer. All rights reserved.<br>Apple, iPhone, iPad, Game Center and iCloud are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. Google AdMob is a trademark of Google LLC. The Bluetooth® word mark is owned by Bluetooth SIG, Inc. Wi-Fi® is a registered trademark of Wi-Fi Alliance. Reef Rush is not affiliated with or endorsed by these companies.</footer>
   </main>
 </body>
 </html>
