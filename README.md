@@ -6,7 +6,7 @@ GitHub Pages site for the App Store listing: https://norfork37.github.io/reefrus
 - Privacy Policy (App Store Connect → Privacy Policy URL): `/privacy.html`
 - Support (App Store Connect → Support URL): `/support.html`
 
-The privacy policy describes the ad-supported 1.0 release: Google AdMob, consent and App Tracking Transparency choices, the Remove Ads purchase, Game Center and iCloud, and nearby multiplayer.
+The privacy policy describes the ad-supported 4.1 release: Google AdMob, consent and App Tracking Transparency choices, the Remove Ads purchase, Game Center and iCloud, and nearby multiplayer.
 
 ## app-ads.txt
 
